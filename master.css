@@ -1,0 +1,125 @@
+.back{
+    background-color: #f1f1f1;
+}
+.header{
+    display: flex;
+    background-color: lightblue;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    list-style-type:none;
+}
+.men{
+    padding-right: 85px;
+}
+.menu-r{
+    list-style-type:none;
+    padding-top: 1px;
+}
+.logo-t-l{
+    font-size: 150%;
+    color: red;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.logo-t-r{
+    font-size: 120%;
+    padding-right: 10px;
+}
+.logo-img{
+    width: 200px;
+}
+.left{
+    display: flex;
+}
+.osn{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color: #f1f1f1;
+}
+.osn-t{
+    font-size: 150%;
+}
+.tab{
+    background-color: #f1f1f1;
+}
+table {
+    border-spacing: 0 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+th {
+    padding: 10px 20px;
+    background: #2c3e50;
+    color: lightcyan;
+    border-right: 2px solid;
+    font-size: 0.9em;
+}
+th:first-child {
+    text-align: left;
+}
+th:last-child {
+    border-right: none;
+}
+td {
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    border-top: 2px solid #56433D;
+    border-bottom: 2px solid #56433D;
+    border-right: 2px solid #56433D;
+}
+td:first-child {
+    border-left: 2px solid #56433D;
+    border-right: 2px solid  #56433D;
+}
+/* Style the form element with a border around it */
+form {
+    border: 4px solid #f1f1f1;
+}
+
+/* Add some padding and a grey background color to containers */
+.containerr {
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+    margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+.inf{
+    font-size: 130%;
+}
+.menu-inf{
+    list-style-type: square;
+}
+.round{
+    width: 200px;
+    height: 200px;
+}
